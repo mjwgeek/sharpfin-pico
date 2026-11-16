@@ -1,0 +1,16 @@
+# Do not publish device NAND, private configuration, captured credentials, or logs
+*.nand
+*.img
+*.bin
+*.dump
+*.key
+*password*
+*secret*
+*pass*
+*.log
+*.bak
+*.tmp
+*.swp
+*.m3u
+.env
+.env.*

@@ -1,3 +1,11 @@
+# Revo Pico preservation add-on (2026)
+
+This Sharpfin repository now includes the [Revo Pico radio directory and preservation toolkit](pico/README.md): expanded HTTP-only station feeds, numbered genre folders, persistent 16 MiB library, automatic updates, operating instructions, OpenWrt isolation, and documented RT73/WPA2 experiments. It does not replace the historical Sharpfin source or install a firmware image.
+
+See [pico/docs/INSTALL.md](pico/docs/INSTALL.md) to get started.
+
+---
+
 # About
 
 This project aims to revive the Sharpfin project (now hosted at http://www.sharpfin.org).  
