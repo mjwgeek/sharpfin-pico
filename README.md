@@ -2,6 +2,8 @@
 
 This Sharpfin repository now includes the [Revo Pico radio directory and preservation toolkit](pico/README.md): expanded HTTP-only station feeds, numbered genre folders, persistent 16 MiB library, automatic updates, operating instructions, OpenWrt isolation, and documented RT73/WPA2 experiments. It does not replace the historical Sharpfin source or install a firmware image.
 
+**Live stations:** [Download the current stations.m3u from reciva.wg5eek.com](http://reciva.wg5eek.com/stations.m3u). The live station list is hosted on the project owner's server, **not** generated or kept current on GitHub. Legacy Pico radios need the plain HTTP address: `http://reciva.wg5eek.com/stations.m3u`.
+
 See [pico/docs/INSTALL.md](pico/docs/INSTALL.md) to get started.
 
 ---

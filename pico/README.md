@@ -4,6 +4,16 @@ Working extensions and research for an original **Revo Pico WiFi / Reciva / Shar
 
 The station directory is available through **Media Player → UPnP → Browse radio**, not through the native Reciva Stations menu.
 
+## Live station list
+
+**[Download the latest stations.m3u](http://reciva.wg5eek.com/stations.m3u)** from the project owner's station server:
+
+```text
+http://reciva.wg5eek.com/stations.m3u
+```
+
+This is the maintained static M3U feed. GitHub hosts source code and documentation rather than a periodically uploaded copy of the station list. The original Pico needs **HTTP**, not HTTPS, to retrieve the feed; individual HTTP stream links may still be unavailable when a station requires HTTPS. The on-device auto-updater is already configured to use this URL.
+
 ## What works
 
 - A PHP 7.4+ bridge fetches Radio Browser or Icecast over modern HTTPS, filters for MP3 at up to 128 kbps, and exports a legacy-compatible M3U file.
